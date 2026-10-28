@@ -1,0 +1,11 @@
+.env
+**/.env
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+chroma_data/
+**/chroma_data/
+node_modules/
+**/node_modules/
+dist/
