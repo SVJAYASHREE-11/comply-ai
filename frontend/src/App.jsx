@@ -511,10 +511,10 @@ function App() {
           </p>
         </section>
 
-        <footer className="footer">
+        {/* <footer className="footer">
           <span>© {new Date().getFullYear()} ComplyAI</span>
           <span>Policy intelligence · Local AI development environment</span>
-        </footer>
+        </footer> */}
       </main>
     </div>
   );

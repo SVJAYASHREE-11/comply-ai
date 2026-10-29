@@ -27,10 +27,11 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"], #[frontend runs , backend runs]
+    # allow_origins=["http://localhost:5173", "http://127.0.0.1:8000"], #[frontend runs , backend runs , http://127.0.0.1:8000/docs?utm_source=chatgpt.com#/]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    allow_origins= ["*"],
 )
 
 # Persistent vector database
