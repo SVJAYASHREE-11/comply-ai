@@ -31,7 +31,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-    allow_origins= ["*"],
+    allow_origins= ["*"],   
 )
 
 # Persistent vector database

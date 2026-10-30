@@ -236,7 +236,7 @@ function App() {
               <small>Powered by Ollama</small>
             </div>
           </div>
-          <p>Your documents stay in your local development environment, subject to your storage configuration.</p>
+          {/* <p>Your documents stay in your local development environment, subject to your storage configuration.</p> */}
         </div>
       </aside>
 
@@ -434,7 +434,7 @@ function App() {
                 Ask questions and get answers grounded in the uploaded policy.
               </p>
             </div>
-            <div className="assistant-avatar">✧</div>
+            {/* <div className="assistant-avatar">✧</div> */}
           </div>
 
           {!documentId && (
